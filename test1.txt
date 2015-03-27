@@ -1,0 +1,25 @@
+//
+// S - A B c
+// A - a
+// A - lambda
+// B - b
+// B - lambda
+//
+// Use the grammar rules above to enter a valid string
+// 
+// Note: You must separate each token of the string with a space
+//
+// A valid string would look as this: a b c
+//
+// While an invalid string would look as this: abc
+//
+S a A B c 
+S b A B c 
+S c A B c 
+A a a 
+A b lambda 
+A c lambda 
+B a 
+B b b 
+B c lambda 
+
